@@ -1,6 +1,6 @@
 ---
 title: A VOZ A SOS 
-layout: linhas
+layout: index3
 permalink: '/linhas'
 lang: pt
 cover: /assets/1.png

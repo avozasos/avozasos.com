@@ -47,12 +47,13 @@ function stickNav() {
   } else {
     navbar.classList.remove("sticky");
   }
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+  if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
     document.getElementById("navtitle").style.top = "0";
   } else {
-    document.getElementById("navtitle").style.top = "-150px";
+    document.getElementById("navtitle").style.top = "-200px";
   }
 }
+
 
 window.addEventListener(
   "scroll",

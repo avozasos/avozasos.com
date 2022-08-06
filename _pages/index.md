@@ -1,5 +1,5 @@
 ---
-title: A VOZ A SOS 
+title: A VOZ, À SOS 
 layout: index
 permalink: '/'
 lang: pt
