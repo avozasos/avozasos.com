@@ -69,6 +69,25 @@ button{
     top:70px;
 }
 
+
+@media screen and (max-width: 800px) {
+    .title {
+        display: block;
+        position: relative;
+        width:100%;
+        padding-top:5%;
+        padding-bottom:15%;
+    }
+    #navtitle{
+        font-size: 20px !important;
+    }
+    .openbtn img {
+      width: 30% !important;
+      text-align: center;
+    }
+}
+
+
 h1 {
   margin: 0;
   padding: 0;
@@ -771,6 +790,7 @@ a:hover{
   width: fit-content;
   display: inline-block;
 }
+
 
 
 /*
