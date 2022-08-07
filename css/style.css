@@ -65,8 +65,7 @@ button{
     display: block;
     position: relative;
     width:100%;
-    padding-top:13%;
-    top:70px;
+    padding-top:12.5vw;
 }
 
 
@@ -184,6 +183,22 @@ h5 {
     
 }
 
+h6 {
+  margin: 0;
+  padding: 0;
+  pointer-events: none;
+  white-space: nowrap;
+  font-family: Helvetica Neue;
+  font-weight: 100;
+  font-size: 13vw;
+  color: black;
+  position: relative;
+  text-align: center;
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
 .subtitle{
     width:100%;
     top: 25px;
@@ -253,9 +268,9 @@ footer{
     color: white;
     width:100%;
     text-align: center;
-    min-height:180px;
-    padding-top:3.5%;
-    padding-bottom:2%;
+    min-height:1vw;
+    padding-top:1vw;
+    padding-bottom:1vw;
     /*
     position: absolute;
     right: 0;
@@ -341,7 +356,7 @@ footer{
 }
 
 .logo{
-    width:40%; 
+    width:15vw; 
     animation: fadeInAnimation ease 3s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
@@ -464,7 +479,7 @@ img {
 }
 
 .icone p{
-    padding-top:100%;
+    padding-top:75%;
     font-size: 20px !important;
 }
 
@@ -762,6 +777,7 @@ a:hover{
 
 .pagetitle {  
   width:90vw;
+  letter-spacing: 3px;
 }
 
 .interprete{
