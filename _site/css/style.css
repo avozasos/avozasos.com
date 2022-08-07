@@ -236,10 +236,10 @@ b{
 }
 
 .social-icon{ 
-  width: 3rem;
+  width: 3vw;
   display: inline !important;
-  height: 3rem;
-  margin: 0.5rem;
+  height: 3vw;
+  margin: 0.5vw;
 }
 
 .video-wrap{
