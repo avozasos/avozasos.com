@@ -685,16 +685,16 @@ a:hover{
 
 .second-nav a{
   text-decoration: none;
-  font-size: 22px;
+  font-size: 22px;s
   font-weight: 400;
   font-family: Helvetica Neue;
   color: black;
   letter-spacing: 1px;
 }
 
-.second-nav p{
+.second-nav{
   text-decoration: none;
-  font-size: 22px;
+  font-size: 22px !important;
   font-weight: 100;
   font-family: Helvetica Neue;
   color: black;
