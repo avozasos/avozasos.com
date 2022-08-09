@@ -5,7 +5,7 @@ cover: /assets/6.png
 permalink: sergioperere
 layout: post2
 videocode: 
-swipebox: sergioperere
+swipebox: perere
 partitura: 
 creditos: Flávia Mafra
 lang: pt
