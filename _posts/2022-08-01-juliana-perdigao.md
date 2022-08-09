@@ -4,7 +4,7 @@ song: 'Singelo Grão'
 cover: /assets/6.png
 permalink: julianaperdigao
 layout: post2
-videocode: x5Np8FQxdic
+videocode: 
 swipebox: juperdigao
 partitura: 
 creditos: Flávia Mafra

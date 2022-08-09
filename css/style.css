@@ -137,12 +137,21 @@ h3::selection{
     background-color: black;
 }
 a::selection{
+    color:white !important;
+    background-color: black !important;
+} 
+
+body::selection{
     color:white;
     background-color: black;
-} p::selection{
+}
+
+p::selection{
     color:white;
     background-color: black;
-} h1::selection{
+} 
+
+h1::selection{
     color:white;
     background-color: black;
 } h2::selection{
@@ -634,8 +643,7 @@ a:hover{
 .center{
     text-align: center;
 }
-.nav-itens{  
-    
+.nav-itens{     
   text-align: left;
   width: fit-content;
   margin: 5% auto;
@@ -664,6 +672,16 @@ a:hover{
   display: inline-block;
   transition: 0.3s;
   letter-spacing: 2px;
+}
+
+.nav-item::selection{
+    color:white;
+    background-color: black;
+}
+
+.nav-item-2::selection{
+    color:white;
+    background-color: black;
 }
 
 .sidebar a:hover {
