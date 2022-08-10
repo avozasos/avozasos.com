@@ -3,9 +3,10 @@ who: 'Sérgio Pererê'
 song: 'Atravessando Fendas'
 cover: /assets/6.png
 permalink: sergioperere
-layout: post2
+layout: post
 videocode: 
 swipebox: perere
+audios: sounds/perere
 partitura: 
 creditos: Flávia Mafra
 lang: pt

@@ -35,7 +35,8 @@ function closeNav() {
   document.getElementById("mySidebar").style.width = "0";
   document.getElementById("main").style.marginLeft= "0";
 }
-
+// scroll animations
+/*
 window.onscroll = function() {stickNav()};
 
 var navbar = document.getElementById("navbar");
@@ -53,7 +54,7 @@ function stickNav() {
     document.getElementById("navtitle").style.top = "-200px";
   }
 }
-
+*/
 
 window.addEventListener(
   "scroll",
@@ -77,3 +78,119 @@ window.addEventListener(
   false
 );
 
+//play and pause audio
+
+var myAudio0 = document.getElementById("myAudio0");
+var isPlaying0 = false;
+function togglePlay0() {
+  isPlaying0 ? myAudio0.pause() : myAudio0.play();
+};
+myAudio0.onplaying = function() {
+  isPlaying0 = true;
+};
+myAudio0.onpause = function() {
+  isPlaying0 = false;
+};
+
+var myAudio1 = document.getElementById("myAudio1");
+var isPlaying1 = false;
+function togglePlay1() {
+  isPlaying1 ? myAudio1.pause() : myAudio1.play();
+};
+myAudio1.onplaying = function() {
+  isPlaying1 = true;
+};
+myAudio1.onpause = function() {
+  isPlaying1 = false;
+};
+
+var myAudio2 = document.getElementById("myAudio2");
+var isPlaying2 = false;
+function togglePlay2() {
+  isPlaying2 ? myAudio2.pause() : myAudio2.play();
+};
+myAudio2.onplaying = function() {
+  isPlaying2 = true;
+};
+myAudio2.onpause = function() {
+  isPlaying2 = false;
+};
+
+var myAudio3 = document.getElementById("myAudio3");
+var isPlaying3 = false;
+function togglePlay3() {
+  isPlaying3 ? myAudio3.pause() : myAudio3.play();
+};
+myAudio3.onplaying = function() {
+  isPlaying3 = true;
+};
+myAudio3.onpause = function() {
+  isPlaying3 = false;
+};
+
+var myAudio4 = document.getElementById("myAudio4");
+var isPlaying4 = false;
+function togglePlay4() {
+  isPlaying4 ? myAudio4.pause() : myAudio4.play();
+};
+myAudio4.onplaying = function() {
+  isPlaying4 = true;
+};
+myAudio4.onpause = function() {
+  isPlaying4 = false;
+};
+
+var myAudio5 = document.getElementById("myAudio5");
+var isPlaying5 = false;
+function togglePlay5() {
+  isPlaying5 ? myAudio5.pause() : myAudio5.play();
+};
+myAudio5.onplaying = function() {
+  isPlaying5 = true;
+};
+myAudio5.onpause = function() {
+  isPlaying5 = false;
+};
+
+var myAudio6 = document.getElementById("myAudio6");
+var isPlaying6 = false;
+function togglePlay6() {
+  isPlaying6 ? myAudio6.pause() : myAudio6.play();
+};
+myAudio6.onplaying = function() {
+  isPlaying6 = true;
+};
+myAudio6.onpause = function() {
+  isPlaying6 = false;
+};
+
+//posicao randomica das bolinhas
+// collect all the divs
+var divs = document.getElementsByClassName('d');
+var cont = document.getElementById("sons");
+// get window width and height
+var winWidth = cont.clientWidth;
+var winHeight = cont.clientHeight;
+
+// i stands for "index". you could also call this banana or haircut. it's a variable
+for ( var i=0; i < divs.length; i++ ) {
+ 	
+    // shortcut! the current div in the list
+    var thisDiv = divs[i];
+    
+    // get random numbers for each element
+    randomTop = getRandomNumber(0, winHeight);
+    randomLeft = getRandomNumber(0, winWidth);
+    
+    // update top and left position
+    thisDiv.style.top = randomTop +"px";
+    thisDiv.style.left = randomLeft +"px";
+    
+}
+
+// function that returns a random number between a min and max
+function getRandomNumber(min, max) {
+    
+  return Math.random() * (max - min) + min;
+    
+}

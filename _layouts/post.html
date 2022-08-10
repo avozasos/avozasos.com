@@ -4,26 +4,43 @@
   <body>
     {% include sidebar.html %}
     {% include navbar.html %}
-    <div class="pagecontent">
-        <img src="{{ page.cover }}" class="cover">
-        <br>
-          <div class="pagetitle">
-              <div class="interprete">{{ page.who }}</div>&nbsp;&nbsp;&nbsp;
-              <div class="cancao">{{ page.song }}</div>
-          <br>
-          </div>
-          <br><br><br>
-          <iframe width="100%" height="500px" src="https://www.youtube.com/embed/{{ page.videocode }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <img src=../assets/line.png class="line">
-            {% include swipebox.html %}
-            <p>Fotos {{ page.creditos }}</p>
-            <img src=../assets/line.png class="line">
+      <br>
+      <div class="pagecontent2">
+      <div class="video-wrap">
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/{{ page.videocode }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+          
+ 
 
-            {% include carousel.html %}         
-    </div>
-    {% include social.html %}
-  </body>
+        <div class="pagecontent">   
+              <div class="pagetitle"> 
+                  <div class="interprete">{{ page.who }}</div>
+                  <div class="cancao">{{ page.song }}</div>
+            </div>
+              <br>             
+              <br> 
+        {% if page.audios %} 
+            <div id="sons">
+            {% assign j = 0 %}
+            {% for file in site.static_files %}
+              {% if file.path contains page.audios %}
+                    <div class="d">
+                        <audio id="myAudio{{ j }}" src="{{ site.baseurl }}{{ file.path }}" preload="auto"></audio>
+                        <a onClick="togglePlay{{ j }}()"><img src="../assets/cursor3.png"></a>
+                    </div> 
+                  {% assign j = j | plus:1 %}
+              {% endif %}
+            {% endfor %}
+             </div>
+        {% endif %}        
+            <br><br><br>
+            {% include swipebox.html %}
+            <p style="text-align: left; padding-left:3%;">Fotos {{ page.creditos }}</p>
+            {% include carousel.html %}
+        </div>
+        {% include social.html %}
     <br><br><br>
     {% include footer.html %}
-
+    </div>
+  </body>
 </html>

@@ -3,8 +3,9 @@ who: 'Leonora Waissmann'
 song: 'Couraça'
 cover: /assets/6.png
 permalink: leonoraweissmann
-layout: post2
-videocode: 
+layout: post
+videocode:
+audios: sounds/leonora
 swipebox: leonora
 partitura: 
 creditos: Flávia Mafra

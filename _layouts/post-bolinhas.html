@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt">
+    {% include head.html %}
+  <body>
+    {% include sidebar.html %}
+    {% include navbar.html %}
+      <br>
+      <div class="pagecontent2">
+      <div class="video-wrap">
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/{{ page.videocode }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+          
+ 
+
+        <div class="pagecontent">   
+              <div class="pagetitle"> 
+                  <div class="interprete">{{ page.who }}</div>
+                  <div class="cancao">{{ page.song }}</div>
+            </div>
+              <br>             
+              <br> 
+            
+            <div id="sons">
+                <div class="d">
+                    <audio id="myAudio0" src="../assets/sounds/leonora7.mp3" preload="auto"></audio>
+                    <a onClick="togglePlay0()"><img src="../assets/cursor3.png"></a>
+                </div> 
+                <div class="d">
+                    <audio id="myAudio1" src="../assets/sounds/leonora1.mp3" preload="auto"></audio>
+                    <a onClick="togglePlay1()"><img src="../assets/cursor3.png"></a>
+                </div> 
+                <div class="d">
+                    <audio id="myAudio2" src="../assets/sounds/leonora2.mp3" preload="auto"></audio>
+                    <a onClick="togglePlay2()"><img src="../assets/cursor3.png"></a>
+                </div>  
+                <div class="d">
+                    <audio id="myAudio3" src="../assets/sounds/leonora3.mp3" preload="auto"></audio>
+                    <a onClick="togglePlay3()"><img src="../assets/cursor3.png"></a>
+                </div> 
+                <div class="d">
+                    <audio id="myAudio4" src="../assets/sounds/leonora4.mp3" preload="auto"></audio>
+                    <a onClick="togglePlay4()"><img src="../assets/cursor3.png"></a>
+                </div>  
+                <div class="d">
+                    <audio id="myAudio5" src="../assets/sounds/leonora5.mp3" preload="auto"></audio>
+                    <a onClick="togglePlay5()"><img src="../assets/cursor4.png"></a>
+                </div> 
+                <div class="d">
+                    <audio id="myAudio6" src="../assets/sounds/leonora6.mp3" preload="auto"></audio>
+                    <a onClick="togglePlay6()"><img src="../assets/cursor4.png"></a>
+                </div>  
+            </div>
+         
+              <br><br><br>
+            {% include swipebox.html %}
+            <p style="text-align: left; padding-left:3%;">Fotos {{ page.creditos }}</p>
+            {% include carousel.html %}
+        </div>
+        {% include social.html %}
+    <br><br><br>
+    {% include footer.html %}
+    </div>
+  </body>
+</html>

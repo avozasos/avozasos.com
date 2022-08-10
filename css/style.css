@@ -261,6 +261,14 @@ b{
     height: 50vw;
 }
 
+.map-wrap{
+    width: 94%;
+    height: 30vw;
+    text-align:center;
+    margin: 5vh;
+    border:0px;
+}
+
 .fa {
     display: inline-block;
     font: normal normal normal 14px/1 FontAwesome;
@@ -370,7 +378,7 @@ footer{
 }
 
 .logo{
-    width:20vw; 
+    width:36vw; 
     animation: fadeInAnimation ease 3s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
@@ -681,7 +689,7 @@ a:hover{
 
 .nav-item-2::selection{
     color:white;
-    background-color: black;
+    background-color: ellow;
 }
 
 .sidebar a:hover {
@@ -829,10 +837,6 @@ a:hover{
     text-align: center;
 }
 
-.iframe{
-    width:100%;
-}
-
 .cover{
     width: 50%;
     margin-left: 25%;
@@ -871,7 +875,27 @@ a:hover{
   display: inline-block;
 }
 
+.sons{
+    
+}
 
+.sons img{
+    width:20px !important;
+}
+
+#sons{
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 50vh;
+  margin-top:5%;
+}
+
+.d {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
 
 /*
 @media screen and (max-width: 800px) {
@@ -887,7 +911,9 @@ a:hover{
         margin: 15px 10px 0;
         height: 40%;
       }
-}*/
+}
+*/
+
 #swipebox-gallery {
   display: flex;
   flex-direction: row;
