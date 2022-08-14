@@ -5,7 +5,7 @@ cover: /assets/6.png
 permalink: ilessisilva
 layout: post
 videocode: 
-swipebox: ilessi
+swipebox: ilessi/ilessi
 audios: sounds/ilessi
 partitura: 
 creditos: Luisa Macedo

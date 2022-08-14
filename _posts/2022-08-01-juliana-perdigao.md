@@ -5,7 +5,7 @@ cover: /assets/6.png
 permalink: julianaperdigao
 layout: post
 videocode: 
-swipebox: juperdigao
+swipebox: juperdigao/juperdigao
 partitura: 
 creditos: Flávia Mafra
 lang: pt

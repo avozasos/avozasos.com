@@ -6,7 +6,7 @@ permalink: leonoraweissmann
 layout: post
 videocode:
 audios: sounds/leonora
-swipebox: leonora
+swipebox: leonora/leonora
 partitura: 
 creditos: Flávia Mafra
 lang: pt

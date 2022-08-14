@@ -5,7 +5,7 @@ cover: /assets/6.png
 permalink: luisalacerda
 layout: post
 videocode: 
-swipebox: luisalacerda
+swipebox: luisalacerda/luisalacerda
 audios: sounds/luisa 
 partitura: 
 creditos: Luisa Macedo

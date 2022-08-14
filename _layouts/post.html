@@ -16,7 +16,8 @@
               <div class="pagetitle"> 
                   <div class="interprete">{{ page.who }}</div>
                   <div class="cancao">{{ page.song }}</div>
-            </div>
+              </div>
+              <br>             
               <br>             
               <br> 
         {% if page.audios %} 
@@ -33,7 +34,7 @@
             {% endfor %}
              </div>
         {% endif %}        
-            <br><br><br>
+            <br><br><br>   
             {% include swipebox.html %}
             <p style="text-align: left; padding-left:3%;">Fotos {{ page.creditos }}</p>
             {% include carousel.html %}
