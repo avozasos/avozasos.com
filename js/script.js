@@ -38,7 +38,7 @@ function closeNav() {
   document.getElementById("main").style.marginLeft= "0";
 }
 
-/*
+
 window.addEventListener(
   "scroll",
   () => {
@@ -49,9 +49,17 @@ window.addEventListener(
   },
   false
 );
-*/
+
+
 //play and pause audio
 
+var playImage0 = document.getElementById('play0');
+var playImage1 = document.getElementById('play1');
+var playImage2 = document.getElementById('play2');
+var playImage3 = document.getElementById('play3');
+var playImage4 = document.getElementById('play4');
+var playImage5 = document.getElementById('play5');
+var playImage6 = document.getElementById('play6');
 var myAudio0 = document.getElementById("myAudio0");
 var isPlaying0 = false;
 function togglePlay0() {
@@ -59,9 +67,11 @@ function togglePlay0() {
 };
 myAudio0.onplaying = function() {
   isPlaying0 = true;
+  playImage0.src="../assets/cursor4.png";
 };
 myAudio0.onpause = function() {
   isPlaying0 = false;
+  playImage0.src="../assets/cursor3.png";
 };
 
 var myAudio1 = document.getElementById("myAudio1");
@@ -71,9 +81,11 @@ function togglePlay1() {
 };
 myAudio1.onplaying = function() {
   isPlaying1 = true;
+  playImage1.src="../assets/cursor4.png";
 };
 myAudio1.onpause = function() {
   isPlaying1 = false;
+  playImage1.src="../assets/cursor3.png";
 };
 
 var myAudio2 = document.getElementById("myAudio2");
@@ -83,9 +95,11 @@ function togglePlay2() {
 };
 myAudio2.onplaying = function() {
   isPlaying2 = true;
+  playImage2.src="../assets/cursor4.png";
 };
 myAudio2.onpause = function() {
   isPlaying2 = false;
+  playImage2.src="../assets/cursor3.png";
 };
 
 var myAudio3 = document.getElementById("myAudio3");
@@ -95,9 +109,11 @@ function togglePlay3() {
 };
 myAudio3.onplaying = function() {
   isPlaying3 = true;
+  playImage3.src="../assets/cursor4.png";
 };
 myAudio3.onpause = function() {
   isPlaying3 = false;
+  playImage3.src="../assets/cursor3.png";
 };
 
 var myAudio4 = document.getElementById("myAudio4");
@@ -107,9 +123,11 @@ function togglePlay4() {
 };
 myAudio4.onplaying = function() {
   isPlaying4 = true;
+  playImage4.src="../assets/cursor4.png";
 };
 myAudio4.onpause = function() {
   isPlaying4 = false;
+  playImage4.src="../assets/cursor3.png";
 };
 
 var myAudio5 = document.getElementById("myAudio5");
@@ -119,9 +137,11 @@ function togglePlay5() {
 };
 myAudio5.onplaying = function() {
   isPlaying5 = true;
+  playImage5.src="../assets/cursor4.png";
 };
 myAudio5.onpause = function() {
   isPlaying5 = false;
+  playImage5.src="../assets/cursor3.png";
 };
 
 var myAudio6 = document.getElementById("myAudio6");
@@ -131,9 +151,11 @@ function togglePlay6() {
 };
 myAudio6.onplaying = function() {
   isPlaying6 = true;
+  playImage6.src="../assets/cursor4.png";
 };
 myAudio6.onpause = function() {
   isPlaying6 = false;
+  playImage6.src="../assets/cursor3.png";
 };
 
 //posicao randomica das bolinhas

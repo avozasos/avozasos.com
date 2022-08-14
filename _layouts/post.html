@@ -26,7 +26,7 @@
               {% if file.path contains page.audios %}
                     <div class="d">
                         <audio id="myAudio{{ j }}" src="{{ site.baseurl }}{{ file.path }}" preload="auto"></audio>
-                        <a onClick="togglePlay{{ j }}()"><img src="../assets/cursor3.png"></a>
+                        <a onClick="togglePlay{{ j }}()"><img id="play{{ j }}" src="../assets/cursor3.png">{{ j }}</a>
                     </div> 
                   {% assign j = j | plus:1 %}
               {% endif %}
