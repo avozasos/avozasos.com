@@ -6,7 +6,7 @@ permalink: kristoffsilva
 layout: post
 videocode: 
 audios: sounds/kristoff 
-swipebox: fotos_kristoff
+swipebox: kristoffsilva/kristoff
 partitura: 
 creditos: Flávia Mafra
 lang: pt
