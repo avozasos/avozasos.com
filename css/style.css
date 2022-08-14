@@ -738,9 +738,11 @@ a:hover{
 .sidebar .closebtn {
   position: absolute;
   top: 10px;
-  right: -55px;
+  right: 3%;
   font-size: 36px;
-  margin-left: 50px;
+  width:3%;
+  max-width:55px;
+  min-width:35px;
 }
 
 #navbar{
@@ -894,7 +896,7 @@ a:hover{
 }
 
 .closebtn img {
-  width:30%;
+  width:100%;
   text-align: right;
 }
 
