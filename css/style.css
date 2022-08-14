@@ -297,20 +297,58 @@ footer{
     */
 }
 
-#sobre{
-    width:50%;
-    margin: 5% 25%;
+
+@media screen and (min-width: 800px) {
+    #sobre{
+        width:50%;
+        margin: 5% 25%;
+    }
+
+    #sobre p{
+        font-size:20px;
+        line-height: 28px;
+        letter-spacing: 2px; 
+        text-align: left;
+    }
+
+    #sobre br{
+        line-height: 10px;
+    }  
+    
+    #sobre a{
+        font-size:20px;
+        line-height: 28px;
+        letter-spacing: 4px; 
+        text-align: center !important;
+        font-weight:400;
+    }
 }
 
-#sobre p{
-    font-size:20px;
-    line-height: 28px;
-    letter-spacing: 2px; 
-    text-align: left;
-}
 
-#sobre br{
-    line-height: 10px;
+@media screen and (max-width: 800px) {
+    #sobre{
+        width:80%;
+        margin: 5% 10%;
+    }
+
+    #sobre p{
+        font-size:15px;
+        line-height: 18px;
+        letter-spacing: 2px; 
+        text-align: left;
+    }
+
+    #sobre br{
+        line-height: 5px;
+    }  
+    
+    #sobre a{
+        font-size:15px;
+        line-height: 28px;
+        letter-spacing: 4px; 
+        text-align: center !important;
+        font-weight:400;
+    }
 }
 
 .bold{
@@ -321,13 +359,6 @@ footer{
     font-weight:300;
 }
 
-#sobre a{
-    font-size:20px;
-    line-height: 28px;
-    letter-spacing: 4px; 
-    text-align: center !important;
-    font-weight:400;
-}
 
 .nav-button{  
   display: block;
