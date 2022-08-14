@@ -1,3 +1,5 @@
+// scroll animations
+
 const m = document.querySelector('body');
 const im = document.querySelectorAll('.movement');
 const windowWidth = window.innerWidth / 3;
@@ -35,27 +37,8 @@ function closeNav() {
   document.getElementById("mySidebar").style.width = "0";
   document.getElementById("main").style.marginLeft= "0";
 }
-// scroll animations
+
 /*
-window.onscroll = function() {stickNav()};
-
-var navbar = document.getElementById("navbar");
-var sticky = navbar.offsetTop;
-
-function stickNav() {
-  if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky")
-  } else {
-    navbar.classList.remove("sticky");
-  }
-  if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
-    document.getElementById("navtitle").style.top = "0";
-  } else {
-    document.getElementById("navtitle").style.top = "-200px";
-  }
-}
-*/
-
 window.addEventListener(
   "scroll",
   () => {
@@ -66,18 +49,7 @@ window.addEventListener(
   },
   false
 );
-
-window.addEventListener(
-  "scroll",
-  () => {
-    document.body.style.setProperty(
-      "--scroll",
-      window.pageYOffset / (document.body.offsetHeight - (window.innerHeight))
-    );
-  },
-  false
-);
-
+*/
 //play and pause audio
 
 var myAudio0 = document.getElementById("myAudio0");

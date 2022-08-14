@@ -1,5 +1,5 @@
 ---
-who: 'Leonora Waissmann'
+who: 'Leonora Weissmann'
 song: 'Couraça'
 cover: /assets/6.png
 permalink: leonoraweissmann
