@@ -800,15 +800,12 @@ a:hover{
   text-align:left;
   display: block;
   transition: top 0.3s;
-  font-size: 30px;
-  padding: 15px 50px;
   font-weight: 100;
   font-family: Helvetica Neue;
 }
 
 #navtitlepost a{
   font-weight: 100;
-  font-size: 30px;
   font-family: Helvetica Neue;
   text-decoration: none;
 }
@@ -820,6 +817,15 @@ a:hover{
     .second-nav{
         font-size: 15px;
     }
+    
+    #navtitlepost{
+        font-size: 25px;
+        padding: 15px 20px;
+    }
+    
+    #navtitlepost a{
+        font-size: 25px;
+    }
 }
 
 @media screen and (min-width: 800px) {
@@ -828,6 +834,13 @@ a:hover{
     }
     .second-nav{
         font-size: 22px;
+    }
+    #navtitlepost{
+        font-size: 30px;
+        padding: 15px 50px;
+    }
+    #navtitlepost a{
+        font-size: 30px;
     }
 }
 
@@ -939,7 +952,6 @@ a:hover{
 .interprete{
   position: absolute;
   left: 3.5%;
-  font-size: 30px;
   font-weight: 100;
   font-family: Helvetica Neue;
   color: black;
@@ -953,7 +965,6 @@ a:hover{
 .cancao{
   position: absolute;
   right: 3.5%;
-  font-size: 30px;
   font-weight: 100;
   font-family: Helvetica Neue;
   color: black;
@@ -961,6 +972,24 @@ a:hover{
   text-align: right;
   width: fit-content;
   display: inline-block;
+}
+
+@media screen and (min-width: 800px) {
+    .interprete{
+        font-size: 30px;
+    }
+    .cancao{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .interprete{
+        font-size: 20px;
+    }
+    .cancao{
+        font-size: 20px;
+    }
 }
 
 .sons{
