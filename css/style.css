@@ -122,8 +122,8 @@ h3 {
   color: black;
   position: relative;
   text-align: center;
-    line-height: 25px;
-    letter-spacing: 4px; 
+  line-height: 25px; 
+  letter-spacing: 2px; 
 }
 
 h3::selection{
@@ -773,12 +773,12 @@ a:hover{
 
 .sidebar .closebtn {
   position: absolute;
-  top: 10px;
+  top: 15px;
   right: 3%;
   font-size: 36px;
-  width:3%;
+  width:1%;
   max-width:55px;
-  min-width:35px;
+  min-width:30px;
 }
 
 #navbar{
@@ -1053,6 +1053,10 @@ a:hover{
     font-family: Helvetica Neue;
 }
 
+.d img{
+    width:18%;
+}
+    
 /*
 @media screen and (max-width: 800px) {
     #swipebox-gallery {
