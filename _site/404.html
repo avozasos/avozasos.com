@@ -59,7 +59,7 @@
         </div></div>
               <br>
               <div class="second-nav">
-                <p>ISSO NÃO É UM DISCO?<br><b><a href="/sobre" class="sobre">SAIBA MAIS</a></b></p>
+                <p>ISSO NÃO É UM DISCO?<br><b><a href="/sobre" class="sobre">SAIBA MAIS SOBRE O PROJETO</a></b></p>
               </div>
             <div class="social"> 
     <a href="https://www.instagram.com" target="_blank">
@@ -68,13 +68,12 @@
     <a href="https://www.facebook.com" target="_blank">
         <img class="social-icon" src="../assets/logo_fb.png">
     </a>
-    <br><br>
+    <br>
     <h3>a.voz.a.sos@gmail.com</h3> 
  </div>
       </div>
-    <div id="navbar">
-
-
+    
+<div id="navbarfixed">
     <a href="/home" id="navtitlepost" >A VOZ, A SÓS</a>
 
     <div id="main nav-button">
@@ -82,7 +81,49 @@
     </div> 
  </div>
 
+    
+    
+<script>
+window.onscroll = function() {stickNav()};
 
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+var x = window.matchMedia("(max-width: 800px)")
+x.addListener(myFunction) // Attach listener function on state changes    
+    
+function stickNav() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+      if (x.matches) {
+          if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+            document.getElementById("navtitle").style.top = "0";
+          } 
+          else {
+            document.getElementById("navtitle").style.top = "-100px";
+          }
+    } else {
+          if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+            document.getElementById("navtitle").style.top = "0";
+          } 
+          else {
+            document.getElementById("navtitle").style.top = "-200px";
+          }
+    }
+} 
+    
+
+  if (x.matches) { // If media query matches
+    document.body.style.backgroundColor = "yellow";
+  } else {
+   document.body.style.backgroundColor = "pink";
+  }
+
+
+    
+</script>
   
       <br><br><br><br>
       <h2>PÁGINA NÃO<br>ENCONTRADA</h2>
@@ -96,7 +137,7 @@
     <a href="https://www.facebook.com" target="_blank">
         <img class="social-icon" src="../assets/logo_fb.png">
     </a>
-    <br><br>
+    <br>
     <h3>a.voz.a.sos@gmail.com</h3> 
  </div>
   

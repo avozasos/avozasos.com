@@ -66,7 +66,7 @@
         </div></div>
               <br>
               <div class="second-nav">
-                <p>ISSO NÃO É UM DISCO?<br><b><a href="/sobre" class="sobre">SAIBA MAIS</a></b></p>
+                <p>ISSO NÃO É UM DISCO?<br><b><a href="/sobre" class="sobre">SAIBA MAIS SOBRE O PROJETO</a></b></p>
               </div>
             <div class="social"> 
     <a href="https://www.instagram.com" target="_blank">
@@ -75,13 +75,12 @@
     <a href="https://www.facebook.com" target="_blank">
         <img class="social-icon" src="../assets/logo_fb.png">
     </a>
-    <br><br>
+    <br>
     <h3>a.voz.a.sos@gmail.com</h3> 
  </div>
       </div>
-    <div id="navbar">
-
-
+    
+<div id="navbarfixed">
     <a href="/home" id="navtitlepost" >A VOZ, A SÓS</a>
 
     <div id="main nav-button">
@@ -89,21 +88,67 @@
     </div> 
  </div>
 
+    
+    
+<script>
+window.onscroll = function() {stickNav()};
 
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+var x = window.matchMedia("(max-width: 800px)")
+x.addListener(myFunction) // Attach listener function on state changes    
+    
+function stickNav() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+      if (x.matches) {
+          if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+            document.getElementById("navtitle").style.top = "0";
+          } 
+          else {
+            document.getElementById("navtitle").style.top = "-100px";
+          }
+    } else {
+          if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+            document.getElementById("navtitle").style.top = "0";
+          } 
+          else {
+            document.getElementById("navtitle").style.top = "-200px";
+          }
+    }
+} 
+    
+
+  if (x.matches) { // If media query matches
+    document.body.style.backgroundColor = "yellow";
+  } else {
+   document.body.style.backgroundColor = "pink";
+  }
+
+
+    
+</script>
       <br>
       <div class="pagecontent2">
       <div class="video-wrap">
             <iframe width="100%" height="100%" src="https://www.youtube.com/embed/" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
+          
+ 
 
         <div class="pagecontent">   
               <div class="pagetitle"> 
                   <div class="interprete">Jhê</div>
-                  <div class="cancao">Matrioska</div
-            </div>
-                  <br>             
-              <br>
-              <br><br><br>
+                  <div class="cancao">Matrioska</div>
+              </div>
+              <br>             
+              <br>             
+              <br> 
+                
+            <br><br><br>   
             <style>
 ---
 ---
@@ -113,6 +158,278 @@
 
 
   <div id="swipebox-gallery">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+        
+          <a href="/assets/jhe/jhe1.jpg" class="swipebox">
+            <img src="/assets/jhe/jhe1.jpg" alt="">
+          </a>
+        
+      
+    
+      
+        
+          <a href="/assets/jhe/jhe10.jpg" class="swipebox">
+            <img src="/assets/jhe/jhe10.jpg" alt="">
+          </a>
+        
+      
+    
+      
+        
+          <a href="/assets/jhe/jhe11.jpg" class="swipebox">
+            <img src="/assets/jhe/jhe11.jpg" alt="">
+          </a>
+        
+      
+    
+      
+        
+          <a href="/assets/jhe/jhe12.jpg" class="swipebox">
+            <img src="/assets/jhe/jhe12.jpg" alt="">
+          </a>
+        
+      
+    
+      
+        
+          <a href="/assets/jhe/jhe13.jpg" class="swipebox">
+            <img src="/assets/jhe/jhe13.jpg" alt="">
+          </a>
+        
+      
+    
+      
+        
+          <a href="/assets/jhe/jhe14.jpg" class="swipebox">
+            <img src="/assets/jhe/jhe14.jpg" alt="">
+          </a>
+        
+      
+    
+      
+        
+          <a href="/assets/jhe/jhe15.jpg" class="swipebox">
+            <img src="/assets/jhe/jhe15.jpg" alt="">
+          </a>
+        
+      
+    
+      
+        
+          <a href="/assets/jhe/jhe2.jpg" class="swipebox">
+            <img src="/assets/jhe/jhe2.jpg" alt="">
+          </a>
+        
+      
+    
+      
+        
+          <a href="/assets/jhe/jhe3.jpg" class="swipebox">
+            <img src="/assets/jhe/jhe3.jpg" alt="">
+          </a>
+        
+      
+    
+      
+        
+          <a href="/assets/jhe/jhe4.jpg" class="swipebox">
+            <img src="/assets/jhe/jhe4.jpg" alt="">
+          </a>
+        
+      
+    
+      
+        
+          <a href="/assets/jhe/jhe5.jpg" class="swipebox">
+            <img src="/assets/jhe/jhe5.jpg" alt="">
+          </a>
+        
+      
+    
+      
+        
+          <a href="/assets/jhe/jhe6.jpg" class="swipebox">
+            <img src="/assets/jhe/jhe6.jpg" alt="">
+          </a>
+        
+      
+    
+      
+        
+          <a href="/assets/jhe/jhe7.jpg" class="swipebox">
+            <img src="/assets/jhe/jhe7.jpg" alt="">
+          </a>
+        
+      
+    
+      
+        
+          <a href="/assets/jhe/jhe8.jpg" class="swipebox">
+            <img src="/assets/jhe/jhe8.jpg" alt="">
+          </a>
+        
+      
+    
+      
+        
+          <a href="/assets/jhe/jhe9.jpg" class="swipebox">
+            <img src="/assets/jhe/jhe9.jpg" alt="">
+          </a>
+        
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
     
       
     
@@ -415,7 +732,7 @@
       $( '.swipebox' ).swipebox();
     })(jQuery);
 </script>
-            <p style="text-align: left; padding-left:3%;">Fotos Flávia Mafra</p>
+            <div class="creditos">Fotos Flávia Mafra</div>
             
         </div>
         <div class="social"> 
@@ -425,7 +742,7 @@
     <a href="https://www.facebook.com" target="_blank">
         <img class="social-icon" src="../assets/logo_fb.png">
     </a>
-    <br><br>
+    <br>
     <h3>a.voz.a.sos@gmail.com</h3> 
  </div>
     <br><br><br>

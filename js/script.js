@@ -60,103 +60,118 @@ var playImage3 = document.getElementById('play3');
 var playImage4 = document.getElementById('play4');
 var playImage5 = document.getElementById('play5');
 var playImage6 = document.getElementById('play6');
+
 var myAudio0 = document.getElementById("myAudio0");
-var isPlaying0 = false;
-function togglePlay0() {
-  isPlaying0 ? myAudio0.pause() : myAudio0.play();
-};
-myAudio0.onplaying = function() {
-  isPlaying0 = true;
-  playImage0.src="../assets/play.png";
-};
-myAudio0.onpause = function() {
-  isPlaying0 = false;
-  playImage0.src="../assets/pause.png";
-};
+if (myAudio0) {
+    var isPlaying0 = false;
+    function togglePlay0() {
+      isPlaying0 ? myAudio0.pause() : myAudio0.play();
+    };
+    myAudio0.onplaying = function() {
+      isPlaying0 = true;
+      playImage0.src="../assets/play.png";
+    };
+    myAudio0.onpause = function() {
+      isPlaying0 = false;
+      playImage0.src="../assets/pause.png";
+    };
+}
 
 var myAudio1 = document.getElementById("myAudio1");
-var isPlaying1 = false;
-function togglePlay1() {
-  isPlaying1 ? myAudio1.pause() : myAudio1.play();
-};
-myAudio1.onplaying = function() {
-  isPlaying1 = true;
-  playImage1.src="../assets/play.png";
-};
-myAudio1.onpause = function() {
-  isPlaying1 = false;
-  playImage1.src="../assets/pause.png";
-};
+if (myAudio1) {
+    var isPlaying1 = false;
+    function togglePlay1() {
+      isPlaying1 ? myAudio1.pause() : myAudio1.play();
+    };
+    myAudio1.onplaying = function() {
+      isPlaying1 = true;
+      playImage1.src="../assets/play.png";
+    };
+    myAudio1.onpause = function() {
+      isPlaying1 = false;
+      playImage1.src="../assets/pause.png";
+    };
+}
 
 var myAudio2 = document.getElementById("myAudio2");
-var isPlaying2 = false;
-function togglePlay2() {
-  isPlaying2 ? myAudio2.pause() : myAudio2.play();
-};
-myAudio2.onplaying = function() {
-  isPlaying2 = true;
-  playImage2.src="../assets/play.png";
-};
-myAudio2.onpause = function() {
-  isPlaying2 = false;
-  playImage2.src="../assets/pause.png";
-};
+if (myAudio2) {
+    var isPlaying2 = false;
+    function togglePlay2() {
+      isPlaying2 ? myAudio2.pause() : myAudio2.play();
+    };
+    myAudio2.onplaying = function() {
+      isPlaying2 = true;
+      playImage2.src="../assets/play.png";
+    };
+    myAudio2.onpause = function() {
+      isPlaying2 = false;
+      playImage2.src="../assets/pause.png";
+    };
+}
 
 var myAudio3 = document.getElementById("myAudio3");
-var isPlaying3 = false;
-function togglePlay3() {
-  isPlaying3 ? myAudio3.pause() : myAudio3.play();
-};
-myAudio3.onplaying = function() {
-  isPlaying3 = true;
-  playImage3.src="../assets/play.png";
-};
-myAudio3.onpause = function() {
-  isPlaying3 = false;
-  playImage3.src="../assets/pause.png";
-};
+if (myAudio3) {
+    var isPlaying3 = false;
+    function togglePlay3() {
+      isPlaying3 ? myAudio3.pause() : myAudio3.play();
+    };
+    myAudio3.onplaying = function() {
+      isPlaying3 = true;
+      playImage3.src="../assets/play.png";
+    };
+    myAudio3.onpause = function() {
+      isPlaying3 = false;
+      playImage3.src="../assets/pause.png";
+    };
+}
 
 var myAudio4 = document.getElementById("myAudio4");
-var isPlaying4 = false;
-function togglePlay4() {
-  isPlaying4 ? myAudio4.pause() : myAudio4.play();
-};
-myAudio4.onplaying = function() {
-  isPlaying4 = true;
-  playImage4.src="../assets/play.png";
-};
-myAudio4.onpause = function() {
-  isPlaying4 = false;
-  playImage4.src="../assets/pause.png";
-};
+if (myAudio4) {
+    var isPlaying4 = false;
+    function togglePlay4() {
+      isPlaying4 ? myAudio4.pause() : myAudio4.play();
+    };
+    myAudio4.onplaying = function() {
+      isPlaying4 = true;
+      playImage4.src="../assets/play.png";
+    };
+    myAudio4.onpause = function() {
+      isPlaying4 = false;
+      playImage4.src="../assets/pause.png";
+    };  
+}
 
 var myAudio5 = document.getElementById("myAudio5");
-var isPlaying5 = false;
-function togglePlay5() {
-  isPlaying5 ? myAudio5.pause() : myAudio5.play();
-};
-myAudio5.onplaying = function() {
-  isPlaying5 = true;
-  playImage5.src="../assets/play.png";
-};
-myAudio5.onpause = function() {
-  isPlaying5 = false;
-  playImage5.src="../assets/pause.png";
-};
+if (myAudio5) {
+    var isPlaying5 = false;
+    function togglePlay5() {
+      isPlaying5 ? myAudio5.pause() : myAudio5.play();
+    };
+    myAudio5.onplaying = function() {
+      isPlaying5 = true;
+      playImage5.src="../assets/play.png";
+    };
+    myAudio5.onpause = function() {
+      isPlaying5 = false;
+      playImage5.src="../assets/pause.png";
+    };
+}
 
 var myAudio6 = document.getElementById("myAudio6");
-var isPlaying6 = false;
-function togglePlay6() {
-  isPlaying6 ? myAudio6.pause() : myAudio6.play();
-};
-myAudio6.onplaying = function() {
-  isPlaying6 = true;
-  playImage6.src="../assets/play.png";
-};
-myAudio6.onpause = function() {
-  isPlaying6 = false;
-  playImage6.src="../assets/pause.png";
-};
+if (myAudio6) {
+    var isPlaying6 = false;
+    function togglePlay6() {
+      isPlaying6 ? myAudio6.pause() : myAudio6.play();
+    };
+    myAudio6.onplaying = function() {
+      isPlaying6 = true;
+      playImage6.src="../assets/play.png";
+    };
+    myAudio6.onpause = function() {
+      isPlaying6 = false;
+      playImage6.src="../assets/pause.png";
+    };
+}
 
 //posicao randomica das bolinhas
 // collect all the divs
