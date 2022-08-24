@@ -1,5 +1,5 @@
 ---
-who: 'Luisa Lacerda'
+who: 'Luísa Lacerda'
 song: 'Conto por conto'
 cover: /assets/6.png
 permalink: luisalacerda

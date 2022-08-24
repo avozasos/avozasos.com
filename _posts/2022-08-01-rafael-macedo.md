@@ -5,7 +5,7 @@ cover: /assets/6.png
 permalink: rafaelmacedo
 layout: post
 videocode: 
-swipebox: rafaelmacedo/rafaelmacedo
+swipebox: rafaelmacedo/macedo
 partitura: 
 creditos: Flávia Mafra
 lang: pt
