@@ -8,6 +8,7 @@ videocode:
 swipebox: ilessi/ilessi
 audios: sounds/ilessi
 partitura: 
+cover: ilessi
 creditos: Luisa Macedo
 lang: pt
 ---

@@ -8,6 +8,7 @@ videocode:
 swipebox: perere/perere
 audios: sounds/perere
 partitura: 
+cover: perere
 creditos: Flávia Mafra
 lang: pt
 ---

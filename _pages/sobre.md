@@ -3,6 +3,7 @@ title: 'Sobre'
 layout: sobre
 permalink: '/sobre'
 lang: pt
+cover: home
 ref: sobre
 ---
 

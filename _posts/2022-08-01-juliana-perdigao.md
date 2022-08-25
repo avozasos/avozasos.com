@@ -7,6 +7,7 @@ layout: post
 videocode: 
 swipebox: juperdigao/juperdigao
 partitura: 
+cover: juperdigao
 creditos: Flávia Mafra
 lang: pt
 ---

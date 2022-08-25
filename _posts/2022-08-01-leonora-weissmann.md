@@ -8,6 +8,7 @@ videocode: J-y7TCzPJ00
 audios: sounds/leonora
 swipebox: leonora/leonora
 partitura: 
+cover: leonora
 creditos: Flávia Mafra
 lang: pt
 ---

@@ -7,6 +7,7 @@ layout: post
 videocode: 
 swipebox: rafaelmacedo/macedo
 partitura: 
+cover: macedo
 creditos: Flávia Mafra
 lang: pt
 ---

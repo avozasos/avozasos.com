@@ -8,6 +8,7 @@ videocode:
 swipebox: luisalacerda/luisalacerda
 audios: sounds/luisa 
 partitura: 
+cover: luisa
 creditos: Luisa Macedo
 lang: pt
 ---
