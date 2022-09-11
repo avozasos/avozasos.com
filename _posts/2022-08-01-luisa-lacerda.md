@@ -4,7 +4,7 @@ song: 'Conto por conto'
 cover: /assets/6.png
 permalink: luisalacerda
 layout: post
-videocode: 
+videocode: nWtCOJaSWOY
 swipebox: luisalacerda/luisalacerda
 audios: sounds/luisa 
 partitura: 
