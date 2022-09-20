@@ -4,7 +4,7 @@ song: 'Atravessando Fendas'
 cover: /assets/6.png
 permalink: sergioperere
 layout: post
-videocode: 
+videocode: 542NEW4cfh4
 swipebox: perere/perere
 audios: sounds/perere
 partitura: 
