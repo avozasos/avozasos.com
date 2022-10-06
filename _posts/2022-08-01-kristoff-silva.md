@@ -9,6 +9,6 @@ audios: sounds/kristoff
 swipebox: kristoffsilva/kristoff
 partitura: 
 cover: kristoff
-creditos: Flávia Mafra
+creditos: Luisa Macedo
 lang: pt
 ---

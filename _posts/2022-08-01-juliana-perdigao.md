@@ -8,6 +8,6 @@ videocode: AEwvu6BnaH8
 swipebox: juperdigao/juperdigao
 partitura: 
 cover: juperdigao
-creditos: Flávia Mafra
+creditos: Luisa Macedo
 lang: pt
 ---
