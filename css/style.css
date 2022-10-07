@@ -910,9 +910,6 @@ a:hover{
         width: 70% !important;
         padding: 3vw 4vw !important;
     }
-    .openbtn {
-        margin-top:2.5% !important;
-    }
     #navbar {
         height: 12vw !important;
         min-height: 50px !important;
@@ -930,13 +927,13 @@ a:hover{
   border: none;
   z-index:2;
   position: absolute;
-  top: 0%;
-  right: 0%;
-  width:5%;
+  top: 20px;
+  right: 3%;
+  font-size: 36px;
+  width:1%;
   max-width:55px;
-  min-width:45px !important;
-  margin-right:2%;
-  margin-top:1%;
+  min-width:40px;
+  padding: 0 !important;
 }
 
 .openbtn img {
