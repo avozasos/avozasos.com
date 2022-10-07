@@ -934,13 +934,13 @@ a:hover{
   right: 0%;
   width:5%;
   max-width:55px;
-  min-width:45px;
+  min-width:45px !important;
   margin-right:2%;
   margin-top:1%;
 }
 
 .openbtn img {
-  width:100%;
+  width:100% !important;
   text-align: center;
 }
 
