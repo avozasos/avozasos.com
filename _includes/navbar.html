@@ -1,10 +1,26 @@
 {% if page.layout contains 'index' %}
-<div id="navbar">
-    <a href="/home" id="navtitle" >A VOZ, A SÓS</a>
+
+        {% case page.lang %}
+            {% when 'en' %}
+            <div id="navbar">
+                <a href="/en" id="navtitle" >A VOZ, A SÓS</a>
+            {% else %}
+            <div id="navbar">
+                <a href="/home" id="navtitle" >A VOZ, A SÓS</a>
+        {% endcase %}
+                
 {% else %}
-<div id="navbarfixed">
-    <a href="/home" id="navtitlepost" >A VOZ, A SÓS</a>
-{% endif %}
+        {% case page.lang %}
+            {% when 'en' %}
+            <div id="navbarfixed">
+                <a href="/en" id="navtitlepost" >A VOZ, A SÓS</a>
+            {% else %}
+            <div id="navbarfixed">
+                <a href="/home" id="navtitlepost" >A VOZ, A SÓS</a>
+        {% endcase %}
+                
+{% endif %}           
+            
     <div id="main nav-button">
       <button class="openbtn" onclick="openNav()"><img src="/assets/menu.png"></button>  
     </div> 

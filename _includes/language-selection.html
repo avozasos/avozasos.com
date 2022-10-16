@@ -1,0 +1,30 @@
+{% if page.path contains '_posts' %}
+  {% assign mPages = site.posts %}
+{% else %}
+  {% assign mPages = site.pages %}
+{% endif %}
+
+{% for p in mPages %}
+  {% if p.ref == page.ref %}
+    {% case p.lang %}
+      {% when 'pt' %}{% assign ptLink = p.url %}
+      {% when 'en' %}{% assign enLink = p.url %}
+      {% when 'es' %}{% assign esLink = p.url %}
+    {% endcase %}
+  {% endif %}
+{% endfor %}
+
+<div class="menu-language-section">
+  {% case page.lang %}
+    {% when 'pt' %}
+      <div class="menu-language-option menu-language-option-selected">PORTUGUÊS</div><div class="menu-language-option">&nbsp;|&nbsp;</div><a href="{{ site.baseurl }}{{ enLink }}"><div class="menu-language-option">ENGLISH</div></a>
+    {% else %}
+      <a href="{{ site.baseurl }}{{ ptLink }}"><div class="menu-language-option">PORTUGUÊS</div></a><div class="menu-language-option">&nbsp;|</div>
+      <div class="menu-language-option menu-language-option-selected">ENGLISH</div>
+  {% endcase %}
+    
+    
+</div>
+
+
+

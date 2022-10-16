@@ -14,7 +14,12 @@
         </div></div>
               <br>
               <div class="second-nav">
+        {% case page.lang %}
+            {% when 'en' %}
+                <p>THIS IS NOT AN ALBUM?<br><b><a href="/about" class="sobre">MORE ABOUT THE PROJECT</a></b></p>
+            {% else %}
                 <p>ISSO NÃO É UM DISCO?<br><b><a href="/sobre" class="sobre">SAIBA MAIS SOBRE O PROJETO</a></b></p>
+        {% endcase %}
               </div>
             {% include social.html %}
       </div>

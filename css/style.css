@@ -283,9 +283,11 @@ footer{
     background-color: black;
     font-family: Helvetica Neue;
     font-weight: 100;
-    color: white;
+    color: darkgray;
     width:100%;
+    font-size:0.8rem;
     text-align: center;
+    letter-spacing: 2px;
     min-height:1vw;
     padding-top:1vw;
     padding-bottom:1vw;
@@ -295,6 +297,11 @@ footer{
     bottom: 0;
     left: 0;
     */
+}
+
+footer a{
+    color: white;
+    font-weight: 100;
 }
 
 
@@ -978,6 +985,10 @@ a:hover{
     width: 50%;
     margin-left: 25%;
     display:block;
+}
+
+.menu-language-option{
+    display:inline-block;
 }
 
 .pagetitle {  

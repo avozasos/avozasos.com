@@ -9,8 +9,71 @@
         <h6>A VOZ, A SÓS</h6>
     </div> 
       
-     <div class="icones">  
+     <div class="icones"> 
+        {% case page.lang %}
+        {% when 'en' %}  
+        <div class="icone1 icone">
+            <div class="movement">
+                <a href="/en/kristoffsilva" class="nav-item"><img src="/assets/01.png" class="img1"></a>
+            </div>
+            <p>KRISTOFF SILVA</p>
+        </div>  
+
+        <div class="icone2 icone">
+            <div class="movement">
+            <a href="/en/thiagoamud" class="nav-item"><img src="/assets/02.png" class="img1"></a>
+            </div>
+            <p>THIAGO AMUD</p>
+        </div> 
          
+        <div class="icone9 icone">
+            <div class="movement">
+            <a href="/en/ilessisilva" class="nav-item"><img src="/assets/09.png" class="img1"></a>
+            </div>
+            <p>ILESSI SILVA</p>
+        </div>
+
+        <div class="icone7 icone">
+            <div class="movement">
+            <a href="/en/leonoraweissmann" class="nav-item"><img src="/assets/07.png" class="img1"></a>
+            </div>
+            <p>LEONORA WEISSMANN</p>
+        </div>  
+         
+        <div class="icone8 icone">
+            <div class="movement">
+                <a href="/en/julianaperdigao" class="nav-item"><img src="/assets/08.png" class="img1"></a>
+            </div>
+            <p>JULIANA PERDIGÃO</p>
+        </div> 
+         
+        <div class="icone6 icone">
+            <div class="movement">
+            <a href="/en/sergioperere" class="nav-item"><img src="/assets/06.png" class="img1"></a>
+            </div>
+            <p>SÉRGIO PERERÊ</p>
+        </div>
+        
+            <div class="icone3 icone">
+            <div class="movement">
+                <a href="/en/jhe" class="nav-item"><img src="/assets/03.png" class="img1"></a>
+            </div> 
+                <p>JHÊ</p>
+         </div>
+
+        <div class="icone4 icone">
+            <div class="movement">
+            <a href="/en/luisalacerda" class="nav-item"><img src="/assets/04.png" class="img1"></a>
+            </div><p>LUÍSA LACERDA</p>
+        </div>  
+
+        <div class="icone5 icone">
+            <div class="movement">
+            <a href="/en/rafaelmacedo" class="nav-item"><img src="/assets/05.png" class="img1"></a>
+            </div>
+            <p>RAFAEL MACEDO</p>
+        </div> 
+      {% else %}
         <div class="icone1 icone">
             <div class="movement">
                 <a href="/kristoffsilva" class="nav-item"><img src="/assets/01.png" class="img1"></a>
@@ -72,16 +135,19 @@
             </div>
             <p>RAFAEL MACEDO</p>
         </div> 
-
-
-
-
-
+      {% endcase %}
      </div>   
       <br>
+        {% case page.lang %}
+        {% when 'en' %}
+              <div class="second-nav">
+                <p>THIS IS NOT AN ALBUM?<br><b><a href="/about" class="sobre">MORE ABOUT THE PROJECT</a></b></p>
+              </div>
+      {% else %}
               <div class="second-nav">
                 <p>ISSO NÃO É UM DISCO?<br><b><a href="/sobre" class="sobre">SAIBA MAIS SOBRE O PROJETO</a></b></p>
               </div>
+      {% endcase %}
       <br>
 
     {% include social.html %}
