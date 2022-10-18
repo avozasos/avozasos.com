@@ -1047,6 +1047,12 @@ a:hover{
     width:20px !important;
 }
 
+@media screen and (max-width: 800px) {
+    #sons{
+        height: 10vh !important;
+    }
+}
+
 #sons{
   position: relative;
   display: block;
